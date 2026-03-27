@@ -1,0 +1,48 @@
+{
+  "name": "@hardikDev12/ragzero",
+  "version": "1.2.0",
+  "description": "ragzero-core: embedding-free retrieval engine with hierarchical parsing, bottom-up semantic compression, and LLM-driven query planning.",
+  "keywords": [
+    "rag",
+    "ragzero",
+    "ragzero-core",
+    "llm",
+    "ollama",
+    "tree-rag",
+    "hierarchical",
+    "agentscope",
+    "retrieval"
+  ],
+  "license": "MIT",
+  "author": "Hardik Prajapati",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "ragzero": "./cli.mjs",
+    "ragzero-core": "./cli.mjs"
+  },
+  "files": [
+    "index.js",
+    "cli.mjs",
+    "lib/**/*.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "start": "node run.mjs",
+    "test:rag": "node run.mjs"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0"
+  }
+}
