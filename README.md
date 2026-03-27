@@ -1,8 +1,8 @@
 # ragzero-core
 
-![npm](https://img.shields.io/npm/v/@hardikDev12/ragzero)
-![license](https://img.shields.io/npm/l/@hardikDev12/ragzero)
-![downloads](https://img.shields.io/npm/dm/@hardikDev12/ragzero)
+[![npm](https://img.shields.io/npm/v/%40hardikdev1210%2Fragzero)](https://www.npmjs.com/package/@hardikdev1210/ragzero)
+[![license](https://img.shields.io/npm/l/%40hardikdev1210%2Fragzero)](https://www.npmjs.com/package/@hardikdev1210/ragzero)
+[![downloads](https://img.shields.io/npm/dm/%40hardikdev1210%2Fragzero)](https://www.npmjs.com/package/@hardikdev1210/ragzero)
 
 > Turn any website into an intelligent, queryable knowledge system — without embeddings.
 
@@ -61,7 +61,7 @@ Pipeline:
 ## 1-Minute Example
 
 ```bash
-npx @hardikDev12/ragzero "https://example.com" "What is this about?"
+npx @hardikdev1210/ragzero "https://example.com" "What is this about?"
 ```
 
 ```text
@@ -150,13 +150,13 @@ Answer behavior:
 ## Installation
 
 ```bash
-npm install @hardikDev12/ragzero
+npm install @hardikdev1210/ragzero
 ```
 
 Or run without install:
 
 ```bash
-npx @hardikDev12/ragzero --help
+npx @hardikdev1210/ragzero --help
 ```
 
 ---
@@ -213,7 +213,7 @@ ragzero \
 ## Programmatic API
 
 ```javascript
-import { VectorlessRAG } from "@hardikDev12/ragzero";
+import { VectorlessRAG } from "@hardikdev1210/ragzero";
 
 const rag = new VectorlessRAG({
   provider: "ollama",

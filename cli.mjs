@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * CLI: `npx @hardikDev12/ragzero` or `ragzero` after global install.
+ * CLI: `npx @hardikdev1210/ragzero` or `ragzero` after global install.
  */
 import path from "node:path";
 import { pathToFileURL } from "node:url";
@@ -103,7 +103,7 @@ ragzero-core — embedding-free retrieval engine with local/crawl JSON indexing 
 
 Usage:
   ragzero [options] [url] [question]
-  npx @hardikDev12/ragzero [options] [url] [question]
+  npx @hardikdev1210/ragzero [options] [url] [question]
 
 Options:
   --url, -u <url>         Page to ingest (HTML)
